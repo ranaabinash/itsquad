@@ -1,0 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+    margin: 1rem;
+    min-width: 300px;
+}
