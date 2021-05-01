@@ -5,12 +5,17 @@
 
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .item h1 {
+  text-align: center;
 }
 
 .item {
   margin: 1rem;
-  /* min-width: 300px; */
-  width: 50%;
+  min-width: 300px;
+  width: 80%;
+  text-align: justify;
 }
