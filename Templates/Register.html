@@ -1,15 +1,58 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/register.css" />
+    <link rel="stylesheet" href="../CSS/navbar.css" />
     <title>Register</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <img src="../Images/logo.png" alt="Logo" class="logo" />
+    </header>
     <div class="container">
-        <form action="#" method="post">
-            
-        </form>
+      <h1>SignUp for an Account</h1>
+      <form>
+        <div class="name">
+          <div id="firstname">
+            <label for="firstname">First Name</label><br />
+            <input class="form-input" type="text" name="firstname" />
+          </div>
+          <div id="lastname">
+            <label for="lastname">Last Name</label><br />
+            <input class="form-input" type="text" name="lastname" />
+          </div>
+        </div>
+        <div class="secondary">
+          <div id="phone" class="secondary-item">
+            <label for="phone">Please enter your Phone Number</label><br />
+            <input class="form-input-block" type="text" name="phone" />
+          </div>
+          <div id="email" class="secondary-item">
+            <label for="email">Please enter your Email Address</label><br />
+            <input class="form-input-block" type="text" name="email" />
+          </div>
+          <div id="password" class="secondary-item">
+            <label for="password">Please enter your password</label><br />
+            <input class="form-input-block" type="password" name="password" />
+          </div>
+          <div id="confirmpassword" class="secondary-item">
+            <label for="confirmpassword">Please enter your password again</label
+            ><br />
+            <input
+              class="form-input-block"
+              type="password"
+              name="confirmpassword"
+            />
+          </div>
+        </div>
+        <div class="action">
+          <input class="btn btn-submit" type="submit" value="Submit" />
+          <p class="info">Already have an account</p>
+          <a href="#" class="btn btn-login">Login</a>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
