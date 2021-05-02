@@ -1,44 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    justify-content: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
-    width: 100%;
+  width: 100%;
 }
 
 .gallery {
-    height: 40rem;
+  height: 40rem;
 }
 
 .banner {
-    width: 100%;
-    height: 100%;
-    background-color: #222;
-    overflow: hidden;
-
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  overflow: hidden;
 }
 
 .banner .carousel {
-    width: 300px;
-    margin: 100px auto 0;
-    overflow: visible;
+  width: 300px;
+  margin: 100px auto 0;
+  overflow: visible;
 }
 
 .carousel img {
-    width: 30rem;
-    height: 15rem;
-    border-radius: 20px;
-    -webkit-box-reflect: below 20px linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+  width: 30rem;
+  height: 15rem;
+  border-radius: 20px;
+  -webkit-box-reflect: below 20px
+    linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
 }

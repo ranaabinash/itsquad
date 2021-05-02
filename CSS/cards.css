@@ -25,7 +25,7 @@
   border-top-right-radius: 20px;
   width: 100%;
   display: block;
-  height: 20rem;
+  height: 18rem;
   object-fit: cover;
 }
 
@@ -34,17 +34,18 @@
 }
 
 .card-header {
+  text-align: start;
   font-size: 3rem;
   font-weight: 500;
   color: #0d0d0d;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .card-text {
   font-size: 0.8rem;
   line-height: 1.7;
   color: #3d3d3d;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .card-btn {
